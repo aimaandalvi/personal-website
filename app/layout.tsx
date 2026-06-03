@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   },
   description:
     "Personal portfolio for Aimaan Dalvi, a Management Engineering student at the University of Waterloo building at the intersection of data, operations, product, and business technology.",
-  metadataBase: new URL("https://example.com"), // TODO: Replace with your deployed portfolio URL.
+  metadataBase: new URL("https://aimaandalvi.vercel.app"),
 };
 
 export default function RootLayout({
