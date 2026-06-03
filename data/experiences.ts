@@ -54,5 +54,6 @@ export const experiences: Experience[] = [
       "Supported admissions outreach through social content, student engagement, and events.",
     link: "https://www.smu.edu.sg/",
     initials: "SM",
+    logo: "/smu-logo.jpeg",
   },
 ];
