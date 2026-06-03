@@ -38,6 +38,9 @@ body {
 
 .skill-marquee {
   overflow: hidden;
+  touch-action: pan-y;
+  user-select: none;
+  -webkit-user-select: none;
   -webkit-mask-image: linear-gradient(90deg, transparent, black 12%, black 88%, transparent);
   mask-image: linear-gradient(90deg, transparent, black 12%, black 88%, transparent);
 }
@@ -47,6 +50,8 @@ body {
   width: max-content;
   gap: 1rem;
   will-change: transform;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
   animation: skill-scroll 26s linear infinite;
   transform: translate3d(0, 0, 0);
 }

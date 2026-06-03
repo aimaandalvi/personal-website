@@ -61,12 +61,12 @@ export default function AboutPage() {
             </h2>
           </div>
         </div>
-        <div className="skill-marquee rounded-xl border border-zinc-200/80 bg-white/50 py-8 dark:border-white/10 dark:bg-white/[0.025]">
+        <div className="skill-marquee touch-pan-y select-none rounded-xl border border-zinc-200/80 bg-white/50 py-8 dark:border-white/10 dark:bg-white/[0.025]">
           <div className="space-y-4">
             {skillRows.map((row, rowIndex) => (
               <div
                 key={rowIndex}
-                className={`skill-marquee-track ${rowIndex === 1 ? "skill-marquee-track-reverse" : ""}`}
+                className={`skill-marquee-track will-change-transform ${rowIndex === 1 ? "skill-marquee-track-reverse" : ""}`}
               >
                 {[0, 1].map((groupIndex) => (
                   <div key={groupIndex} className="skill-marquee-group" aria-hidden={groupIndex === 1}>
