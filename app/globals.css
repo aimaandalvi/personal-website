@@ -67,17 +67,10 @@ body {
 
 @keyframes skill-scroll {
   from {
-    transform: translateX(0);
+    transform: translate3d(0, 0, 0);
   }
 
   to {
-    transform: translateX(-50%);
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .skill-marquee-track {
-    animation: none;
-    flex-wrap: wrap;
+    transform: translate3d(-50%, 0, 0);
   }
 }
