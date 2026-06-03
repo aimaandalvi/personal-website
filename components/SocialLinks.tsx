@@ -18,7 +18,7 @@ const links = [
   },
   {
     label: "Resume",
-    href: "/resume.pdf", // TODO: Replace public/resume.pdf with your current resume.
+    href: "/resume.pdf",
     icon: ScrollText,
   },
 ];

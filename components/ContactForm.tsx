@@ -3,6 +3,9 @@
 import { Send } from "lucide-react";
 import { FormEvent, useState } from "react";
 
+const fieldClassName =
+  "rounded-xl border border-zinc-300/70 bg-white/70 px-4 py-3 text-sm text-zinc-950 outline-none transition placeholder:text-zinc-400 focus:border-zinc-500 dark:border-white/10 dark:bg-white/[0.04] dark:text-zinc-50 dark:focus:border-[#1db954]/70";
+
 export function ContactForm() {
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
   const [statusMessage, setStatusMessage] = useState("");
@@ -55,28 +58,28 @@ export function ContactForm() {
           name="name"
           required
           placeholder="Your name"
-          className="rounded-xl border border-zinc-300/70 bg-white/70 px-4 py-3 text-sm text-zinc-950 outline-none transition placeholder:text-zinc-400 focus:border-zinc-500 dark:border-white/10 dark:bg-white/[0.04] dark:text-zinc-50 dark:focus:border-[#1db954]/70"
+          className={fieldClassName}
         />
         <input
           name="email"
           type="email"
           required
           placeholder="Your email"
-          className="rounded-xl border border-zinc-300/70 bg-white/70 px-4 py-3 text-sm text-zinc-950 outline-none transition placeholder:text-zinc-400 focus:border-zinc-500 dark:border-white/10 dark:bg-white/[0.04] dark:text-zinc-50 dark:focus:border-[#1db954]/70"
+          className={fieldClassName}
         />
       </div>
       <input
         name="subject"
         required
         placeholder="Subject"
-        className="mt-4 w-full rounded-xl border border-zinc-300/70 bg-white/70 px-4 py-3 text-sm text-zinc-950 outline-none transition placeholder:text-zinc-400 focus:border-zinc-500 dark:border-white/10 dark:bg-white/[0.04] dark:text-zinc-50 dark:focus:border-[#1db954]/70"
+        className={`mt-4 w-full ${fieldClassName}`}
       />
       <textarea
         name="message"
         required
         placeholder="Your message"
         rows={6}
-        className="mt-4 w-full resize-none rounded-xl border border-zinc-300/70 bg-white/70 px-4 py-3 text-sm text-zinc-950 outline-none transition placeholder:text-zinc-400 focus:border-zinc-500 dark:border-white/10 dark:bg-white/[0.04] dark:text-zinc-50 dark:focus:border-[#1db954]/70"
+        className={`mt-4 w-full resize-none ${fieldClassName}`}
       />
       <button
         type="submit"
