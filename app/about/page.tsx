@@ -68,13 +68,17 @@ export default function AboutPage() {
                 key={rowIndex}
                 className={`skill-marquee-track ${rowIndex === 1 ? "skill-marquee-track-reverse" : ""}`}
               >
-                {[...row, ...row].map((skill, index) => (
-                  <span
-                    key={`${skill}-${rowIndex}-${index}`}
-                    className="rounded-full border border-zinc-200/80 bg-white/70 px-5 py-3 text-sm font-medium text-zinc-700 dark:border-white/10 dark:bg-white/[0.04] dark:text-zinc-300"
-                  >
-                    {skill}
-                  </span>
+                {[0, 1].map((groupIndex) => (
+                  <div key={groupIndex} className="skill-marquee-group" aria-hidden={groupIndex === 1}>
+                    {row.map((skill) => (
+                      <span
+                        key={`${skill}-${rowIndex}-${groupIndex}`}
+                        className="rounded-full border border-zinc-200/80 bg-white/70 px-5 py-3 text-sm font-medium text-zinc-700 dark:border-white/10 dark:bg-white/[0.04] dark:text-zinc-300"
+                      >
+                        {skill}
+                      </span>
+                    ))}
+                  </div>
                 ))}
               </div>
             ))}

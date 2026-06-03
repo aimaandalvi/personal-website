@@ -46,7 +46,15 @@ body {
   display: flex;
   width: max-content;
   gap: 1rem;
-  animation: skill-scroll 34s linear infinite;
+  will-change: transform;
+  animation: skill-scroll 26s linear infinite;
+  transform: translate3d(0, 0, 0);
+}
+
+.skill-marquee-group {
+  display: flex;
+  gap: 1rem;
+  min-width: max-content;
 }
 
 .skill-marquee-track-reverse {
