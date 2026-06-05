@@ -2,6 +2,10 @@ import { ProjectCard } from "@/components/ProjectCard";
 import type { Project } from "@/data/projects";
 
 export function ProjectDeck({ projects }: { projects: Project[] }) {
+  if (projects.length === 0) {
+    return null;
+  }
+
   const [featuredProject, ...secondaryProjects] = projects;
 
   return (

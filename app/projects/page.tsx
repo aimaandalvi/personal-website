@@ -1,5 +1,5 @@
 import { ProjectDeck } from "@/components/ProjectDeck";
-import { projects } from "@/data/projects";
+import { builtProjects, workingProjects } from "@/data/projects";
 
 export const metadata = {
   title: "Projects",
@@ -13,7 +13,19 @@ export default function ProjectsPage() {
           Projects
         </h1>
       </header>
-      <ProjectDeck projects={projects} />
+      <section aria-labelledby="built-projects">
+        <h2 id="built-projects" className="mb-5 text-2xl font-semibold text-zinc-950 dark:text-zinc-50">
+          Built
+        </h2>
+        <ProjectDeck projects={builtProjects} />
+      </section>
+
+      <section aria-labelledby="working-projects" className="mt-14">
+        <h2 id="working-projects" className="mb-5 text-2xl font-semibold text-zinc-950 dark:text-zinc-50">
+          Working On
+        </h2>
+        <ProjectDeck projects={workingProjects} />
+      </section>
     </div>
   );
 }

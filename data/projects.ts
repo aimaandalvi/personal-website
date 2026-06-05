@@ -5,7 +5,7 @@ export type Project = {
   href: string;
 };
 
-export const projects: Project[] = [
+export const builtProjects: Project[] = [
   {
     title: "SnapRSVP",
     description:
@@ -25,6 +25,25 @@ export const projects: Project[] = [
     description:
       "Developed an Excel/VBA scheduler that recommends study plans and visualizes weekly workload.",
     tags: ["Excel", "VBA"],
+    href: "#",
+  },
+];
+
+export const workingProjects: Project[] = [
+  {
+    title: "RecipeFlow",
+    description:
+      "Full-stack Chrome extension that uses AI to turn messy recipe websites into clean, interactive cooking workspaces with scaled ingredients, timers, checklists, shopping lists, and substitutions.",
+    tags: [
+      "React",
+      "TypeScript",
+      "Chrome Extension MV3",
+      "Node.js / Express",
+      "REST APIs",
+      "Tailwind CSS",
+      "Vite",
+      "Zod",
+    ],
     href: "#",
   },
 ];
