@@ -11,7 +11,7 @@ export const builtProjects: Project[] = [
     description:
       "Built a macOS RSVP reading app that converts screen or PDF text into a fast focus overlay.",
     tags: ["Python", "PyQt6", "MSS", "Tesseract OCR", "PyInstaller"],
-    href: "#",
+    href: "https://github.com/aimaandalvi/SnapRSVP",
   },
   {
     title: "Financial Planning Tool",
