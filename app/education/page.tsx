@@ -23,7 +23,7 @@ export default function EducationPage() {
           </h2>
           <p className="mt-5 text-base text-zinc-600 dark:text-zinc-400">{education.dates}</p>
         </div>
-        <div className="flex min-h-[150px] flex-col justify-end rounded-xl border border-zinc-200/80 bg-white/70 p-6 shadow-sm dark:border-white/10 dark:bg-white/[0.035] sm:p-8 lg:min-h-0">
+        <div className="flex min-h-[150px] flex-col justify-center rounded-xl border border-zinc-200/80 bg-white/70 p-6 shadow-sm dark:border-white/10 dark:bg-white/[0.035] sm:p-8 lg:min-h-0">
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-zinc-500 dark:text-zinc-500">
             Average
           </p>
@@ -31,7 +31,7 @@ export default function EducationPage() {
             {education.cumulativeAverage}
           </p>
         </div>
-        <div className="flex min-h-[150px] flex-col justify-end rounded-xl border border-zinc-200/80 bg-white/70 p-6 shadow-sm dark:border-white/10 dark:bg-white/[0.035] sm:p-8 lg:min-h-0">
+        <div className="flex min-h-[150px] flex-col justify-center rounded-xl border border-zinc-200/80 bg-white/70 p-6 shadow-sm dark:border-white/10 dark:bg-white/[0.035] sm:p-8 lg:min-h-0">
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-zinc-500 dark:text-zinc-500">
             GPA
           </p>
