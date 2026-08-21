@@ -45,6 +45,18 @@ export const experiences: Experience[] = [
     logo: "/manulife-logo.png",
   },
   {
+    company: "Harmony Meadows Alpaca",
+    role: "Project Team Member - Data Analyst",
+    location: "Waterloo, Canada",
+    dates: "July 2025 - August 2025",
+    description:
+      "Directed market research, automated Excel and Power Query data pipelines, and built Power BI dashboards.",
+    link: "https://www.harmonymeadowsalpaca.ca/",
+    initials: "HM",
+    logo: "/harmony-meadows-logo.png",
+    logoBackground: "white",
+  },
+  {
     company: "Singapore Police Force",
     role: "Assistant Group Leader",
     location: "Singapore, Singapore",
