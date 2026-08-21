@@ -7,7 +7,7 @@ export const education = {
   school: "University of Waterloo",
   program: "Bachelor of Applied Science in Management Engineering",
   dates: "2024 - Present",
-  cumulativeGpa: "89.48%",
+  cumulativeGpa: "89.48% / 3.9 out of 4",
   standing: "Excellent Standing",
 };
 
