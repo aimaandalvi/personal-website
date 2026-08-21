@@ -16,8 +16,7 @@ export const experiences: Experience[] = [
     role: "Data Engineer, Data Analytics and Automation",
     location: "Toronto, Canada",
     dates: "September 2026 - December 2026",
-    description:
-      "Incoming role focused on data engineering, analytics, and automation for business reporting workflows.",
+    description: "Incoming Fall 2026.",
     link: "https://www.brookfield.com/",
     initials: "BA",
     logo: "/brookfield-logo.png",
