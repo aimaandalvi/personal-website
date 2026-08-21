@@ -3,9 +3,9 @@ import { ExternalLink } from "lucide-react";
 
 export function ProjectCard({ project, featured = false }: { project: Project; featured?: boolean }) {
   const hasLink = project.href !== "#";
-  const cardClassName = `group flex h-full flex-col rounded-xl border border-zinc-200/80 bg-white/70 shadow-sm transition duration-200 dark:border-white/10 dark:bg-white/[0.045] ${
+  const cardClassName = `group flex h-full flex-col rounded-xl border border-zinc-200/80 bg-white/70 shadow-sm transition duration-200 dark:border-white/10 dark:bg-white/[0.035] ${
     hasLink
-      ? "hover:-translate-y-1 hover:border-zinc-400 hover:shadow-soft dark:hover:border-mint-200/60"
+      ? "hover:-translate-y-1 hover:border-zinc-400 hover:shadow-soft dark:hover:border-[#1db954]/60"
       : ""
   } ${featured ? "min-h-[320px] p-8 sm:p-10" : "p-5"}`;
 
@@ -23,7 +23,7 @@ export function ProjectCard({ project, featured = false }: { project: Project; f
           <ExternalLink
             aria-hidden="true"
             size={featured ? 22 : 17}
-            className="mt-1 shrink-0 text-zinc-400 transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-zinc-700 dark:group-hover:text-mint-200"
+            className="mt-1 shrink-0 text-zinc-400 transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-zinc-700 dark:group-hover:text-[#1db954]"
           />
         )}
       </div>

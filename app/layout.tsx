@@ -22,7 +22,7 @@ export default function RootLayout({
     <html lang="en" className="dark">
       <body className="font-sans text-zinc-950 antialiased dark:text-zinc-100">
         <Navbar />
-        <main className="mx-auto min-h-[calc(100vh-12rem)] max-w-4xl px-5 py-12 sm:px-6 sm:py-16">
+        <main className="mx-auto min-h-[calc(100vh-12rem)] max-w-6xl px-5 py-12 sm:px-6 sm:py-16">
           {children}
         </main>
         <Footer />

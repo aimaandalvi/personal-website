@@ -17,7 +17,7 @@ export default function AboutPage() {
       <section className="grid gap-10 lg:grid-cols-[1fr_240px] lg:items-center">
         <div>
           <header className="mb-8">
-            <p className="mb-3 text-xs font-semibold uppercase tracking-[0.24em] text-zinc-500 dark:text-mint-200">
+            <p className="mb-3 text-xs font-semibold uppercase tracking-[0.24em] text-zinc-500 dark:text-[#1db954]">
               About
             </p>
             <h1 className="font-serif text-5xl font-semibold italic leading-tight text-zinc-950 dark:text-zinc-50 sm:text-7xl">
@@ -53,7 +53,7 @@ export default function AboutPage() {
       <section className="mt-14">
         <div className="mb-5 flex items-end justify-between gap-4">
           <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-zinc-500 dark:text-mint-200">
+            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-zinc-500 dark:text-[#1db954]">
               Skills
             </p>
             <h2 className="mt-3 font-serif text-3xl font-semibold italic text-zinc-950 dark:text-zinc-50">
@@ -61,7 +61,7 @@ export default function AboutPage() {
             </h2>
           </div>
         </div>
-        <div className="skill-marquee touch-pan-y select-none rounded-xl border border-zinc-200/80 bg-white/50 py-8 dark:border-white/10 dark:bg-white/[0.04]">
+        <div className="skill-marquee touch-pan-y select-none rounded-xl border border-zinc-200/80 bg-white/50 py-8 dark:border-white/10 dark:bg-white/[0.025]">
           <div className="space-y-4">
             {skillRows.map((row, rowIndex) => (
               <div
