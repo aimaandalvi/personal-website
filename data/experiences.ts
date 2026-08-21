@@ -20,6 +20,8 @@ export const experiences: Experience[] = [
       "Incoming role focused on data engineering, analytics, and automation for business reporting workflows.",
     link: "https://www.brookfield.com/",
     initials: "BA",
+    logo: "/brookfield-logo.png",
+    logoBackground: "white",
   },
   {
     company: "Manulife Wealth",

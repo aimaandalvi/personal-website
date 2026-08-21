@@ -3,12 +3,17 @@ import type { Experience } from "@/data/experiences";
 import { ExternalLink } from "lucide-react";
 
 export function ExperienceCard({ experience }: { experience: Experience }) {
+  const isNavyLogo = experience.logoBackground === "navy";
+  const isWhiteLogo = experience.logoBackground === "white";
+
   return (
     <article className="group grid gap-5 rounded-xl border border-zinc-200/80 bg-white/70 p-5 shadow-sm transition duration-200 hover:-translate-y-1 hover:border-zinc-400 hover:shadow-soft dark:border-white/10 dark:bg-white/[0.035] dark:hover:border-[#1db954]/60 min-[520px]:grid-cols-[56px_1fr]">
       <div
         className={`relative flex h-14 w-14 items-center justify-center overflow-hidden rounded-xl border border-zinc-300/80 text-sm font-semibold text-zinc-700 dark:border-white/10 dark:text-[#1db954] ${
-          experience.logoBackground === "navy"
+          isNavyLogo
             ? "bg-[#071b3a]"
+            : isWhiteLogo
+              ? "bg-white"
             : "bg-zinc-100 dark:bg-[#1db954]/15"
         }`}
       >
@@ -18,7 +23,7 @@ export function ExperienceCard({ experience }: { experience: Experience }) {
             alt={`${experience.company} logo`}
             fill
             sizes="56px"
-            className={experience.logoBackground === "navy" ? "object-contain p-1.5" : "object-cover"}
+            className={isNavyLogo || isWhiteLogo ? "object-contain p-1.5" : "object-cover"}
           />
         ) : (
           experience.initials
