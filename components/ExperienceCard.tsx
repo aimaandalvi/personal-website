@@ -4,12 +4,12 @@ import { ExternalLink } from "lucide-react";
 
 export function ExperienceCard({ experience }: { experience: Experience }) {
   return (
-    <article className="group grid gap-5 rounded-xl border border-zinc-200/80 bg-white/70 p-5 shadow-sm transition duration-200 hover:-translate-y-1 hover:border-zinc-400 hover:shadow-soft dark:border-white/10 dark:bg-white/[0.035] dark:hover:border-[#1db954]/60 min-[520px]:grid-cols-[56px_1fr]">
+    <article className="group grid gap-5 rounded-xl border border-zinc-200/80 bg-white/70 p-5 shadow-sm transition duration-200 hover:-translate-y-1 hover:border-zinc-400 hover:shadow-soft dark:border-white/10 dark:bg-white/[0.045] dark:hover:border-mint-200/60 min-[520px]:grid-cols-[56px_1fr]">
       <div
-        className={`relative flex h-14 w-14 items-center justify-center overflow-hidden rounded-xl border border-zinc-300/80 text-sm font-semibold text-zinc-700 dark:border-white/10 dark:text-[#1db954] ${
+        className={`relative flex h-14 w-14 items-center justify-center overflow-hidden rounded-xl border border-zinc-300/80 text-sm font-semibold text-zinc-700 dark:border-white/10 dark:text-mint-200 ${
           experience.logoBackground === "navy"
             ? "bg-[#071b3a]"
-            : "bg-zinc-100 dark:bg-[#1db954]/15"
+            : "bg-zinc-100 dark:bg-mint-200/15"
         }`}
       >
         {experience.logo ? (
@@ -31,7 +31,7 @@ export function ExperienceCard({ experience }: { experience: Experience }) {
               href={experience.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-lg font-semibold text-zinc-950 transition hover:text-zinc-600 dark:text-zinc-50 dark:hover:text-[#1db954]"
+              className="inline-flex items-center gap-2 text-lg font-semibold text-zinc-950 transition hover:text-zinc-600 dark:text-zinc-50 dark:hover:text-mint-200"
             >
               {experience.company}
               <ExternalLink

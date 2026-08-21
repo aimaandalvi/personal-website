@@ -30,7 +30,7 @@ export function Navbar() {
                 href={item.href}
                 className={`shrink-0 rounded-full px-4 py-2 text-sm font-medium transition sm:px-6 sm:text-base ${
                   isActive
-                    ? "bg-zinc-950 text-white shadow-sm dark:bg-[#1db954] dark:text-ink-950"
+                    ? "bg-zinc-950 text-white shadow-sm dark:bg-mint-200 dark:text-ink-950"
                     : "text-zinc-500 hover:text-zinc-950 dark:text-zinc-400 dark:hover:text-white"
                 }`}
                 aria-current={isActive ? "page" : undefined}
