@@ -13,35 +13,31 @@ export default function EducationPage() {
         </h1>
       </header>
 
-      <section className="rounded-xl border border-zinc-200/80 bg-white/70 p-6 shadow-sm dark:border-white/10 dark:bg-white/[0.035] sm:p-8">
-        <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-end">
-          <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-zinc-500 dark:text-[#1db954]">
-              {education.school}
-            </p>
-            <h2 className="mt-4 max-w-3xl text-3xl font-semibold leading-tight text-zinc-950 dark:text-zinc-50 sm:text-4xl">
-              {education.program}
-            </h2>
-            <p className="mt-5 text-base text-zinc-600 dark:text-zinc-400">{education.dates}</p>
-          </div>
-          <div className="grid gap-3 sm:grid-cols-2 lg:min-w-[360px]">
-            <div className="rounded-xl border border-zinc-200/80 bg-zinc-50/80 p-5 dark:border-white/10 dark:bg-white/[0.035]">
-              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-zinc-500 dark:text-zinc-500">
-                Average
-              </p>
-              <p className="mt-3 text-3xl font-semibold leading-none text-zinc-950 dark:text-zinc-50">
-                {education.cumulativeAverage}
-              </p>
-            </div>
-            <div className="rounded-xl border border-zinc-200/80 bg-zinc-50/80 p-5 dark:border-white/10 dark:bg-white/[0.035]">
-              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-zinc-500 dark:text-zinc-500">
-                GPA
-              </p>
-              <p className="mt-3 text-3xl font-semibold leading-none text-zinc-950 dark:text-zinc-50">
-                {education.fourPointGpa}
-              </p>
-            </div>
-          </div>
+      <section className="grid gap-4 lg:grid-cols-[1fr_220px_220px] lg:items-stretch">
+        <div className="rounded-xl border border-zinc-200/80 bg-white/70 p-6 shadow-sm dark:border-white/10 dark:bg-white/[0.035] sm:p-8">
+          <p className="text-xs font-semibold uppercase tracking-[0.24em] text-zinc-500 dark:text-[#1db954]">
+            {education.school}
+          </p>
+          <h2 className="mt-4 max-w-3xl text-3xl font-semibold leading-tight text-zinc-950 dark:text-zinc-50 sm:text-4xl">
+            {education.program}
+          </h2>
+          <p className="mt-5 text-base text-zinc-600 dark:text-zinc-400">{education.dates}</p>
+        </div>
+        <div className="flex min-h-[150px] flex-col justify-end rounded-xl border border-zinc-200/80 bg-white/70 p-6 shadow-sm dark:border-white/10 dark:bg-white/[0.035] sm:p-8 lg:min-h-0">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-zinc-500 dark:text-zinc-500">
+            Average
+          </p>
+          <p className="mt-4 text-3xl font-semibold leading-none text-zinc-950 dark:text-zinc-50">
+            {education.cumulativeAverage}
+          </p>
+        </div>
+        <div className="flex min-h-[150px] flex-col justify-end rounded-xl border border-zinc-200/80 bg-white/70 p-6 shadow-sm dark:border-white/10 dark:bg-white/[0.035] sm:p-8 lg:min-h-0">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-zinc-500 dark:text-zinc-500">
+            GPA
+          </p>
+          <p className="mt-4 text-3xl font-semibold leading-none text-zinc-950 dark:text-zinc-50">
+            {education.fourPointGpa}
+          </p>
         </div>
       </section>
 
