@@ -11,7 +11,7 @@ const contactLinks = [
   {
     label: "Email",
     value: "a4dalvi@uwaterloo.ca",
-    href: "/contact",
+    href: "mailto:a4dalvi@uwaterloo.ca",
     icon: Mail,
   },
   {
