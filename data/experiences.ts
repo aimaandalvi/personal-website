@@ -12,6 +12,16 @@ export type Experience = {
 
 export const experiences: Experience[] = [
   {
+    company: "Brookfield Asset Management",
+    role: "Data Engineer, Data Analytics and Automation",
+    location: "Toronto, Canada",
+    dates: "September 2026 - December 2026",
+    description:
+      "Incoming role focused on data engineering, analytics, and automation for business reporting workflows.",
+    link: "https://www.brookfield.com/",
+    initials: "BA",
+  },
+  {
     company: "Manulife Wealth",
     role: "Data Analyst, Retail and Wealth Operations",
     location: "Waterloo, Canada",
