@@ -5,10 +5,9 @@ export type Coursework = {
 export const education = {
   school: "University of Waterloo",
   program: "Bachelor of Applied Science in Management Engineering",
-  dates: "2024 - Present",
+  dates: "2024 - 2029",
   cumulativeAverage: "89.48%",
   fourPointGpa: "3.9/4",
-  standing: "Excellent Standing",
 };
 
 export const coursework: Coursework[] = [
