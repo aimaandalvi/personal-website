@@ -1,4 +1,3 @@
-import { ContactForm } from "@/components/ContactForm";
 import { Github, Linkedin, Mail, MapPin, Phone } from "lucide-react";
 
 const contactLinks = [
@@ -53,29 +52,26 @@ export default function ContactPage() {
         </p>
       </header>
 
-      <section className="grid gap-6 lg:grid-cols-[0.9fr_1.1fr]" aria-label="Contact options">
-        <div className="space-y-4">
-          {contactLinks.map(({ label, value, href, icon: Icon }) => (
-            <a
-              key={label}
-              href={href}
-              target={href.startsWith("http") ? "_blank" : undefined}
-              rel={href.startsWith("http") ? "noopener noreferrer" : undefined}
-              className="flex items-center gap-4 rounded-xl border border-zinc-200/80 bg-white/70 p-5 transition hover:-translate-y-0.5 hover:border-zinc-400 dark:border-white/10 dark:bg-white/[0.035] dark:hover:border-[#1db954]/60"
-            >
-              <span className="inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border border-zinc-300/70 bg-zinc-100 text-zinc-700 dark:border-white/10 dark:bg-[#1db954]/15 dark:text-[#1db954]">
-                <Icon aria-hidden="true" size={20} />
+      <section className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3" aria-label="Contact options">
+        {contactLinks.map(({ label, value, href, icon: Icon }) => (
+          <a
+            key={label}
+            href={href}
+            target={href.startsWith("http") ? "_blank" : undefined}
+            rel={href.startsWith("http") ? "noopener noreferrer" : undefined}
+            className="flex min-h-[170px] flex-col justify-between rounded-xl border border-zinc-200/80 bg-white/70 p-6 transition hover:-translate-y-0.5 hover:border-zinc-400 hover:shadow-soft dark:border-white/10 dark:bg-white/[0.035] dark:hover:border-[#1db954]/60"
+          >
+            <span className="inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border border-zinc-300/70 bg-zinc-100 text-zinc-700 dark:border-white/10 dark:bg-[#1db954]/15 dark:text-[#1db954]">
+              <Icon aria-hidden="true" size={20} />
+            </span>
+            <span>
+              <span className="block text-xs font-semibold uppercase tracking-[0.18em] text-zinc-500 dark:text-zinc-500">
+                {label}
               </span>
-              <span>
-                <span className="block text-xs font-semibold uppercase tracking-[0.18em] text-zinc-500 dark:text-zinc-500">
-                  {label}
-                </span>
-                <span className="mt-1 block font-semibold text-zinc-950 dark:text-zinc-100">{value}</span>
-              </span>
-            </a>
-          ))}
-        </div>
-        <ContactForm />
+              <span className="mt-2 block text-xl font-semibold text-zinc-950 dark:text-zinc-100">{value}</span>
+            </span>
+          </a>
+        ))}
       </section>
     </div>
   );
