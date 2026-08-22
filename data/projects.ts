@@ -16,9 +16,9 @@ export const builtProjects: Project[] = [
   {
     title: "Financial Planning Tool",
     description:
-      "Built an Excel/VBA dashboard for budgets, goals, expenses, and purchase impact analysis.",
+      "Built an Excel/VBA workbook for transaction tracking, budget dashboards, monthly summaries, goals, and purchase impact checks.",
     tags: ["Excel", "VBA"],
-    href: "#",
+    href: "https://github.com/aimaandalvi/student-financial-planning-tool",
   },
   {
     title: "Student Scheduling Decision Support System",
