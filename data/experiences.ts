@@ -13,10 +13,10 @@ export type Experience = {
 export const experiences: Experience[] = [
   {
     company: "Brookfield Asset Management",
-    role: "Data Engineer, Data Analytics and Automation",
+    role: "Incoming Data Engineer, Data Analytics and Automation",
     location: "Toronto, Canada",
     dates: "September 2026 - December 2026",
-    description: "Incoming Fall 2026.",
+    description: "Incoming Fall 2026 co-op.",
     link: "https://www.brookfield.com/",
     initials: "BA",
     logo: "/brookfield-logo.png",
@@ -28,7 +28,7 @@ export const experiences: Experience[] = [
     location: "Waterloo, Canada",
     dates: "January 2026 - April 2026",
     description:
-      "Improved reporting infrastructure with Power BI, SQL, Databricks, and automation workflows.",
+      "Built Power BI reporting infrastructure with Salesforce, Databricks SQL, SharePoint, and Power Automate.",
     link: "https://www.manulife.ca/",
     initials: "MW",
     logo: "/manulife-logo.png",
@@ -39,7 +39,7 @@ export const experiences: Experience[] = [
     location: "Singapore, Singapore",
     dates: "May 2025 - August 2025",
     description:
-      "Built workforce planning models to analyze capacity, forecasting, and headcount needs.",
+      "Built workforce planning and forecasting models for demand, capacity, shrinkage, and multi-year FTE needs.",
     link: "https://www.manulife.ca/",
     initials: "MR",
     logo: "/manulife-logo.png",
@@ -50,7 +50,7 @@ export const experiences: Experience[] = [
     location: "Waterloo, Canada",
     dates: "July 2025 - August 2025",
     description:
-      "Directed market research, automated Excel and Power Query data pipelines, and built Power BI dashboards.",
+      "Built market research dashboards with Excel, Power Query, Shopify exports, external benchmarks, and Power BI.",
     link: "https://www.harmonymeadowsalpaca.ca/",
     initials: "HM",
     logo: "/harmony-meadows-logo.png",
@@ -58,7 +58,7 @@ export const experiences: Experience[] = [
   },
   {
     company: "Singapore Police Force",
-    role: "Assistant Group Leader",
+    role: "Assistant Group Leader, Public Transport Security Command",
     location: "Singapore, Singapore",
     dates: "April 2022 - February 2024",
     description:
@@ -67,16 +67,5 @@ export const experiences: Experience[] = [
     initials: "SP",
     logo: "/spf-logo.png",
     logoBackground: "navy",
-  },
-  {
-    company: "Singapore Management University",
-    role: "Marketing & Social Media Assistant",
-    location: "Singapore, Singapore",
-    dates: "January 2022 - April 2022",
-    description:
-      "Supported admissions outreach through social content, student engagement, and events.",
-    link: "https://www.smu.edu.sg/",
-    initials: "SM",
-    logo: "/smu-logo.jpeg",
   },
 ];

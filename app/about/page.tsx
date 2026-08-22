@@ -4,7 +4,9 @@ import { SocialLinks } from "@/components/SocialLinks";
 const skillRows = [
   ["Power BI", "DAX", "Power Query", "Excel VBA", "SQL", "Databricks", "Salesforce"],
   ["SharePoint", "Data Visualization", "Power Automate", "Python", "R", "Git", "GitHub"],
-  ["JavaScript", "React", "Node.js", "Tailwind CSS", "TypeScript", "Process Improvement Methodologies"],
+  ["TypeScript", "JavaScript", "React", "Node.js", "Express", "Tailwind CSS", "Vite"],
+  ["Zod", "Chrome Extension MV3", "REST APIs", "Google Gemini API", "Forecasting", "LLM-Supported Development"],
+  ["Workflow Automation", "What-If Analysis", "PDF Parsing", "Tesseract OCR", "Process Improvement Methodologies"],
 ];
 
 export const metadata = {

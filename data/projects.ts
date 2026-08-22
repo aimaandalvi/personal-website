@@ -7,17 +7,24 @@ export type Project = {
 
 export const builtProjects: Project[] = [
   {
+    title: "RecipeFlow",
+    description:
+      "Built a local-first Chrome extension with a TypeScript/Express AI backend that turns messy recipe pages into structured cooking workspaces.",
+    tags: ["React", "TypeScript", "Chrome Extension MV3", "Express", "Zod", "Tailwind CSS"],
+    href: "https://github.com/aimaandalvi/RecipeFlow",
+  },
+  {
     title: "SnapRSVP",
     description:
-      "Built a macOS RSVP reading app that converts screen or PDF text into a fast focus overlay.",
-    tags: ["Python", "PyQt6", "MSS", "Tesseract OCR", "PyInstaller"],
+      "Built a macOS RSVP reading app that captures on-screen or PDF text and converts it into a fast focus overlay.",
+    tags: ["Python", "PyQt6", "MSS", "Tesseract OCR", "PDF Parsing", "PyInstaller"],
     href: "https://github.com/aimaandalvi/SnapRSVP",
   },
   {
     title: "Financial Planning Tool",
     description:
-      "Built an Excel/VBA workbook for transaction tracking, budget dashboards, monthly summaries, goals, and purchase impact checks.",
-    tags: ["Excel", "VBA"],
+      "Built an Excel/VBA planning workbook for expense tracking, budgeting, dashboards, goals, and What-If analysis.",
+    tags: ["Excel", "VBA", "What-If Analysis"],
     href: "https://github.com/aimaandalvi/student-financial-planning-tool",
   },
   {
@@ -29,21 +36,4 @@ export const builtProjects: Project[] = [
   },
 ];
 
-export const workingProjects: Project[] = [
-  {
-    title: "RecipeFlow",
-    description:
-      "Full-stack Chrome extension that uses AI to turn messy recipe websites into clean, interactive cooking workspaces with scaled ingredients, timers, checklists, shopping lists, and substitutions.",
-    tags: [
-      "React",
-      "TypeScript",
-      "Chrome Extension MV3",
-      "Node.js / Express",
-      "REST APIs",
-      "Tailwind CSS",
-      "Vite",
-      "Zod",
-    ],
-    href: "#",
-  },
-];
+export const workingProjects: Project[] = [];

@@ -20,12 +20,14 @@ export default function ProjectsPage() {
         <ProjectDeck projects={builtProjects} />
       </section>
 
-      <section aria-labelledby="working-projects" className="mt-14">
-        <h2 id="working-projects" className="mb-5 text-2xl font-semibold text-zinc-950 dark:text-zinc-50">
-          Working On
-        </h2>
-        <ProjectDeck projects={workingProjects} />
-      </section>
+      {workingProjects.length > 0 && (
+        <section aria-labelledby="working-projects" className="mt-14">
+          <h2 id="working-projects" className="mb-5 text-2xl font-semibold text-zinc-950 dark:text-zinc-50">
+            Working On
+          </h2>
+          <ProjectDeck projects={workingProjects} />
+        </section>
+      )}
     </div>
   );
 }
