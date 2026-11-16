@@ -7,16 +7,24 @@ export type Project = {
 
 export const builtProjects: Project[] = [
   {
+    title: "2026 FIFA World Cup Schedule Optimization",
+    description:
+      "Optimized 72 matches across 16 venues, improving minimum recovery by 12.3% and reducing weather exposure by 37.5% versus FIFA's baseline.",
+    tags: ["Python", "Gurobi", "pandas", "APIs", "Optimization Modeling"],
+    // TODO: Add the optimization project's repository or case study URL.
+    href: "#",
+  },
+  {
     title: "RecipeFlow",
     description:
-      "Built a local-first Chrome extension with a TypeScript/Express AI backend that turns messy recipe pages into structured cooking workspaces.",
+      "Built a Chrome extension that validates unstructured recipes with Zod and turns them into an interactive React cooking workspace.",
     tags: ["React", "TypeScript", "Chrome Extension MV3", "Express", "Zod", "Tailwind CSS"],
     href: "https://github.com/aimaandalvi/RecipeFlow",
   },
   {
     title: "SnapRSVP",
     description:
-      "Built a macOS RSVP reading app that captures on-screen or PDF text and converts it into a fast focus overlay.",
+      "Built a macOS reading app that captures screen or PDF text and displays it in a focused overlay at up to 800 WPM.",
     tags: ["Python", "PyQt6", "MSS", "Tesseract OCR", "PDF Parsing", "PyInstaller"],
     href: "https://github.com/aimaandalvi/SnapRSVP",
   },

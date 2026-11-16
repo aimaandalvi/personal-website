@@ -2,11 +2,11 @@ import Image from "next/image";
 import { SocialLinks } from "@/components/SocialLinks";
 
 const skillRows = [
-  ["Power BI", "DAX", "Power Query", "Excel VBA", "SQL", "Databricks", "Salesforce"],
-  ["SharePoint", "Data Visualization", "Power Automate", "Python", "R", "Git", "GitHub"],
-  ["TypeScript", "JavaScript", "React", "Node.js", "Express", "Tailwind CSS", "Vite"],
-  ["Zod", "Chrome Extension MV3", "REST APIs", "Google Gemini API", "Forecasting", "LLM-Supported Development"],
-  ["Workflow Automation", "What-If Analysis", "PDF Parsing", "Tesseract OCR", "Process Improvement Methodologies"],
+  ["Python", "SQL", "TypeScript", "JavaScript", "Ruby", "C++", "R", "VBA", "pandas"],
+  ["Databricks", "Snowflake", "MySQL", "AWS S3", "Power BI", "DAX", "Power Query", "Excel", "Salesforce"],
+  ["React", "Node.js", "Express", "REST APIs", "Zod", "Tailwind CSS", "Vite", "Git", "GitHub"],
+  ["UiPath", "Workato", "Copilot Studio", "Power Automate", "SharePoint", "LLM Agent Development", "AI-Assisted Development"],
+  ["Gurobi", "Optimization Modeling", "Data Pipelines", "Workflow Automation", "Data Visualization", "Forecasting", "OAuth 2.0"],
 ];
 
 export const metadata = {
@@ -31,9 +31,9 @@ export default function AboutPage() {
           </header>
           <div className="max-w-2xl text-base leading-8 text-zinc-600 dark:text-zinc-400">
             <p>
-              I&apos;m interested in building practical systems across data engineering, SQL-backed analysis, software,
-              and AI-powered automation. Right now, I&apos;m focused on tools that turn messy workflows into clearer
-              reporting, faster decisions, and better operations.
+              I build data pipelines, software, and AI-powered automation that make everyday workflows easier.
+              Currently at Brookfield, I&apos;m working on AI agents, enterprise automation, and data engineering,
+              with a growing interest in optimization and practical tools that support better decisions.
             </p>
           </div>
           <div className="mt-8">

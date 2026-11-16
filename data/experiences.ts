@@ -13,10 +13,11 @@ export type Experience = {
 export const experiences: Experience[] = [
   {
     company: "Brookfield Asset Management",
-    role: "Incoming Data Engineer, Data Analytics and Automation",
+    role: "AI & Data Engineer Intern, Data Analytics and Automation",
     location: "Toronto, Canada",
     dates: "September 2026 - December 2026",
-    description: "Incoming Fall 2026 co-op.",
+    description:
+      "Built AI incident workflows, consolidated 60 reconciliation flows into 4, and delivered Snowflake data extracts with Workato.",
     link: "https://www.brookfield.com/",
     initials: "BA",
     logo: "/brookfield-logo.png",
@@ -28,7 +29,7 @@ export const experiences: Experience[] = [
     location: "Waterloo, Canada",
     dates: "January 2026 - April 2026",
     description:
-      "Built Power BI reporting infrastructure with Salesforce, Databricks SQL, SharePoint, and Power Automate.",
+      "Centralized Salesforce and Databricks SQL reporting in Power BI and automated recurring reporting and document reviews.",
     link: "https://www.manulife.ca/",
     initials: "MW",
     logo: "/manulife-logo.png",
@@ -39,7 +40,7 @@ export const experiences: Experience[] = [
     location: "Singapore, Singapore",
     dates: "May 2025 - August 2025",
     description:
-      "Built workforce planning and forecasting models for demand, capacity, shrinkage, and multi-year FTE needs.",
+      "Built Excel and Power Query models for workforce forecasting, process efficiency, capacity, and multi-year staffing needs.",
     link: "https://www.manulife.ca/",
     initials: "MR",
     logo: "/manulife-logo.png",
@@ -50,7 +51,7 @@ export const experiences: Experience[] = [
     location: "Waterloo, Canada",
     dates: "July 2025 - August 2025",
     description:
-      "Built market research dashboards with Excel, Power Query, Shopify exports, external benchmarks, and Power BI.",
+      "Led a Power BI market dashboard with Excel and Power Query pipelines to assess wholesale growth opportunities.",
     link: "https://www.harmonymeadowsalpaca.ca/",
     initials: "HM",
     logo: "/harmony-meadows-logo.png",

@@ -7,7 +7,7 @@ export const education = {
   program: "Bachelor of Applied Science in Management Engineering",
   dates: "September 2024 - Present",
   cumulativeAverage: "89.48%",
-  fourPointGpa: "3.9/4",
+  fourPointGpa: "3.9/4.0",
   deanList: "F2024, W2025",
 };
 
