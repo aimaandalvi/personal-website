@@ -17,7 +17,7 @@ export const experiences: Experience[] = [
     location: "Toronto, Canada",
     dates: "September 2026 - December 2026",
     description:
-      "Built AI incident workflows, consolidated 60 reconciliation flows into 4, and delivered Snowflake data extracts with Workato.",
+      "Built AI-powered workflows and data pipelines to simplify internal operations and support business reporting.",
     link: "https://www.brookfield.com/",
     initials: "BA",
     logo: "/brookfield-logo.png",
@@ -29,7 +29,7 @@ export const experiences: Experience[] = [
     location: "Waterloo, Canada",
     dates: "January 2026 - April 2026",
     description:
-      "Centralized Salesforce and Databricks SQL reporting in Power BI and automated recurring reporting and document reviews.",
+      "Built reporting systems and automated recurring workflows to help leaders understand advisor workloads and productivity.",
     link: "https://www.manulife.ca/",
     initials: "MW",
     logo: "/manulife-logo.png",
@@ -40,7 +40,7 @@ export const experiences: Experience[] = [
     location: "Singapore, Singapore",
     dates: "May 2025 - August 2025",
     description:
-      "Built Excel and Power Query models for workforce forecasting, process efficiency, capacity, and multi-year staffing needs.",
+      "Developed workforce planning models to align staffing with demand and uncover opportunities to improve operational efficiency.",
     link: "https://www.manulife.ca/",
     initials: "MR",
     logo: "/manulife-logo.png",
@@ -51,7 +51,7 @@ export const experiences: Experience[] = [
     location: "Waterloo, Canada",
     dates: "July 2025 - August 2025",
     description:
-      "Led a Power BI market dashboard with Excel and Power Query pipelines to assess wholesale growth opportunities.",
+      "Led the development of a market research dashboard to help the farm evaluate wholesale expansion opportunities.",
     link: "https://www.harmonymeadowsalpaca.ca/",
     initials: "HM",
     logo: "/harmony-meadows-logo.png",
@@ -63,7 +63,7 @@ export const experiences: Experience[] = [
     location: "Singapore, Singapore",
     dates: "April 2022 - February 2024",
     description:
-      "Led and trained team members while supporting patrol, incident response, and operations.",
+      "Led and trained team members while coordinating patrols and incident response to support public transport security.",
     link: "https://www.police.gov.sg/",
     initials: "SP",
     logo: "/spf-logo.png",
